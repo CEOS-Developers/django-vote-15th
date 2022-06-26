@@ -17,7 +17,24 @@
 [📘 Postman](https://documenter.getpostman.com/view/20851554/UzBqpkpp)
 
 ---
-### Docker와 Github Action을 이용한 자동 배포 
-### AbstractUser 을 이용하여 User Model을 Custom
 
+### - Docker와 Github Action을 이용한 자동 배포 
+### - AbstractUser 을 이용하여 User Model을 Custom
+### - Simple JWT을 이용하여 회원가입/로그인
+### - permissions_class로 로그인 인증 후 투표
 
+---
+
+### ❗ 어려웠던 점 ❗
+
+- ubuntu 에서 python 설치 및 module 버전 호환 문제
+- aws EC2의 public IPv4 접속이 안되는 문제
+- http -> https 배포 문제 (A 레코드 생성 X)
+
+---
+
+### ❗ Refactoring이 필요한 부분 ❗
+
+- [ ] logout 기능
+- [ ] 투표 log 생성
+- [ ] https 배포
