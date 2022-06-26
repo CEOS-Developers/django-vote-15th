@@ -9,7 +9,7 @@
 3. ❗**다중 투표**❗가 가능합니다
 
 ## ERD
-![ㄷㄱㅇ](https://user-images.githubusercontent.com/77188666/170715384-e28c1167-df17-4d9f-ab6a-f2e6782ae2ce.JPG)
+![erd](https://user-images.githubusercontent.com/77188666/175807082-ccd0b6b3-a95b-4102-8b5b-84ecc73d71a6.PNG)
 
 ## API 문서
 [📕 Notion](https://yourzinc.notion.site/django-vote-15th-API-74b44c1773b44e1d9dd7c043e514a0b8)
@@ -18,5 +18,6 @@
 
 ---
 ### Docker와 Github Action을 이용한 자동 배포 
+### AbstractUser 을 이용하여 User Model을 Custom
 
 
