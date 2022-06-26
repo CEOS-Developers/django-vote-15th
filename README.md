@@ -27,9 +27,9 @@
 
 ### ❗ 어려웠던 점 ❗
 
-- ubuntu 에서 python 설치 및 module 버전 호환 문제
-- aws EC2의 public IPv4 접속이 안되는 문제
-- http -> https 배포 문제 (A 레코드 생성 X)
+- [x] ubuntu 에서 python 설치 및 module 버전 호환 문제
+- [ ] aws EC2의 public IPv4 접속이 안되는 문제 
+- [ ] http -> https 배포 문제 (A 레코드 생성 X)
 
 ---
 
