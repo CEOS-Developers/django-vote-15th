@@ -9,7 +9,7 @@
 3. ❗**다중 투표**❗가 가능합니다
 
 ## ERD
-![ㄷㄱㅇ](https://user-images.githubusercontent.com/77188666/170715384-e28c1167-df17-4d9f-ab6a-f2e6782ae2ce.JPG)
+![erd](https://user-images.githubusercontent.com/77188666/175807082-ccd0b6b3-a95b-4102-8b5b-84ecc73d71a6.PNG)
 
 ## API 문서
 [📕 Notion](https://yourzinc.notion.site/django-vote-15th-API-74b44c1773b44e1d9dd7c043e514a0b8)
@@ -17,6 +17,24 @@
 [📘 Postman](https://documenter.getpostman.com/view/20851554/UzBqpkpp)
 
 ---
-### Docker와 Github Action을 이용한 자동 배포 
 
+### - Docker와 Github Action을 이용한 자동 배포 
+### - AbstractUser 을 이용하여 User Model을 Custom
+### - Simple JWT을 이용하여 회원가입/로그인
+### - permissions_class로 로그인 인증 후 투표
 
+---
+
+### ❗ 어려웠던 점 ❗
+
+- [x] ubuntu 에서 python 설치 및 module 버전 호환 문제
+- [x] http -> https 배포 문제 (A 레코드 생성 X)
+- [ ] aws EC2의 public IPv4 접속이 안되는 문제
+
+---
+
+### ❗ Refactoring이 필요한 부분 ❗
+
+- [ ] logout 기능
+- [ ] 투표 log 생성
+- [ ] https 배포
